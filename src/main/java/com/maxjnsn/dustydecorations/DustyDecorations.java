@@ -1,5 +1,8 @@
 package com.maxjnsn.dustydecorations;
 
+import com.maxjnsn.dustydecorations.blocks.ModBlocks;
+import com.maxjnsn.dustydecorations.item.ModItemGroups;
+import com.maxjnsn.dustydecorations.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class DustyDecorations implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerModItemGroups();
 
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

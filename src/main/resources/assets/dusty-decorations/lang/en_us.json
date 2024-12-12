@@ -1,0 +1,10 @@
+{
+  "item.dusty-decorations.fluorite": "Fluorite",
+  "item.dusty-decorations.raw_fluorite": "Raw Fluorite",
+
+  "block.dusty-decorations.fluorite_block": "Fluorite Block",
+    "block.dusty-decorations.apple_barrel": "Apple Barrel",
+
+  "itemgroup.fluorite": "Dusty Decorations",
+  "itemgroup.fluorite_blocks": "Spawners+"
+}
