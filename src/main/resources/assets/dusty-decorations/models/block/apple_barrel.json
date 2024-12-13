@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
+	"ambientocclusion": true,
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "dusty-decorations:block/apple_barrel",

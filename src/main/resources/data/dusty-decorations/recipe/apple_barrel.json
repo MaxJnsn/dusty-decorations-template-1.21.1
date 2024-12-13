@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:barrel"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " # "
+  ],
+  "result": {
+    "id": "dusty-decorations:apple_barrel",
+    "count": 1
+  }
+}

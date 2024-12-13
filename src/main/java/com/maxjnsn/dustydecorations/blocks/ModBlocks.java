@@ -21,9 +21,7 @@ public class ModBlocks {
     public static final Block APPLE_BARREL = registerBlock("apple_barrel",
             new AppleBarrelBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
-                    .strength(2.5f)
-                    .requiresTool()
-                    .nonOpaque()));
+                    .strength(2.5f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
