@@ -34,4 +34,5 @@ public class ModItemGroups {
     public static void registerModItemGroups() {
         DustyDecorations.LOGGER.info("Registering Mod Item Groups for " + DustyDecorations.MOD_ID);
     }
+
 }
