@@ -1,7 +1,7 @@
 package com.maxjnsn.dustydecorations.blocks;
 
 import com.maxjnsn.dustydecorations.DustyDecorations;
-import com.maxjnsn.dustydecorations.blocks.custom.AppleBarrelBlock;
+import com.maxjnsn.dustydecorations.blocks.custom.CustomFilledBarrelBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -12,14 +12,14 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
-            new Block(AbstractBlock.Settings.create()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                    .strength(4f)
-                    .requiresTool()));
-
     public static final Block APPLE_BARREL = registerBlock("apple_barrel",
-            new AppleBarrelBlock(AbstractBlock.Settings.create()
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block BEETROOT_BARREL = registerBlock("beetroot_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .strength(2.5f)
                     .nonOpaque()));
