@@ -17,6 +17,13 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.APPLE_BARREL)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.APPLE_BARREL);
                         entries.add(ModBlocks.BEETROOT_BARREL);
+                        entries.add(ModBlocks.CARROT_BARREL);
+                        entries.add(ModBlocks.COD_BARREL);
+                        entries.add(ModBlocks.GLOW_BERRIES_BARREL);
+                        entries.add(ModBlocks.POTATO_BARREL);
+                        entries.add(ModBlocks.SALMON_BARREL);
+                        entries.add(ModBlocks.SWEET_BERRIES_BARREL);
+                        entries.add(ModBlocks.EMPTY_BARREL);
 
                     }).build());
 

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:barrel",
+    "dusty-decorations:empty_barrel"
+  ]
+}

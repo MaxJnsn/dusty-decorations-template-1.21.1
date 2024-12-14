@@ -6,7 +6,7 @@
       "tag": "dusty-decorations:dusty_barrels"
     },
     "A": {
-      "item": "minecraft:apple"
+      "item": "minecraft:beetroot"
     }
   },
   "pattern": [
@@ -14,7 +14,7 @@
     " # "
   ],
   "result": {
-    "id": "dusty-decorations:apple_barrel",
+    "id": "dusty-decorations:beetroot_barrel",
     "count": 1
   }
 }

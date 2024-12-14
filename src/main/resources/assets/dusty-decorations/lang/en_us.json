@@ -1,6 +1,14 @@
 {
   "block.dusty-decorations.apple_barrel": "Apple Barrel",
   "block.dusty-decorations.beetroot_barrel": "Beetroot Barrel",
+  "block.dusty-decorations.carrot_barrel": "Carrot Barrel",
+  "block.dusty-decorations.cod_barrel": "Cod Barrel",
+  "block.dusty-decorations.glow_berries_barrel": "Glow Berries Barrel",
+  "block.dusty-decorations.potato_barrel": "Potato Barrel",
+  "block.dusty-decorations.salmon_barrel": "Salmon Barrel",
+  "block.dusty-decorations.sweet_berries_barrel": "Sweet Berries Barrel",
+    "block.dusty-decorations.empty_barrel": "Empty Barrel",
+
 
   "itemgroup.dusty_decorations": "Dusty Decorations",
   "itemgroup.fluorite_blocks": "Spawners+"

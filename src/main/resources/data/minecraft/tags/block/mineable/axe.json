@@ -1,5 +1,13 @@
 {
   "values": [
-    "dusty-decorations:apple_barrel"
+    "dusty-decorations:apple_barrel",
+    "dusty-decorations:beetroot_barrel",
+    "dusty-decorations:carrot_barrel",
+    "dusty-decorations:cod_barrel",
+    "dusty-decorations:empty_barrel",
+    "dusty-decorations:glow_berries_barrel",
+    "dusty-decorations:potato_barrel",
+    "dusty-decorations:salmon_barrel",
+    "dusty-decorations:sweet_berries_barrel"
   ]
 }

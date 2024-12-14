@@ -1,6 +1,7 @@
 package com.maxjnsn.dustydecorations.blocks;
 
 import com.maxjnsn.dustydecorations.DustyDecorations;
+import com.maxjnsn.dustydecorations.blocks.custom.CustomEmptyBarrelBlock;
 import com.maxjnsn.dustydecorations.blocks.custom.CustomFilledBarrelBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -20,6 +21,48 @@ public class ModBlocks {
 
     public static final Block BEETROOT_BARREL = registerBlock("beetroot_barrel",
             new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block CARROT_BARREL = registerBlock("carrot_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block COD_BARREL = registerBlock("cod_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block GLOW_BERRIES_BARREL = registerBlock("glow_berries_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block POTATO_BARREL = registerBlock("potato_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block SALMON_BARREL = registerBlock("salmon_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block SWEET_BERRIES_BARREL = registerBlock("sweet_berries_barrel",
+            new CustomFilledBarrelBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.WOOD)
+                    .strength(2.5f)
+                    .nonOpaque()));
+
+    public static final Block EMPTY_BARREL = registerBlock("empty_barrel",
+            new CustomEmptyBarrelBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .strength(2.5f)
                     .nonOpaque()));
