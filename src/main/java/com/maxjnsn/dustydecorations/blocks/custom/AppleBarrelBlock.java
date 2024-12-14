@@ -9,7 +9,7 @@ import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
 
-public class AppleBarrelBlock extends Block {
+public class AppleBarrelBlock extends CustomBarrelBlock {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
     public AppleBarrelBlock(Settings settings) {
@@ -20,7 +20,6 @@ public class AppleBarrelBlock extends Block {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
-
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
@@ -36,6 +35,4 @@ public class AppleBarrelBlock extends Block {
     protected BlockState mirror(BlockState state, BlockMirror mirror) {
         return state.rotate(mirror.getRotation(state.get(FACING)));
     }
-
-
 }
